@@ -30,7 +30,7 @@ var chart = new Chart(ctx, {
         scales: {
             yAxes: [{
                 ticks: {
-                    fontSize: 28,
+                    fontSize: 14,
                     fontColor: "rgb(255,255,255)",
                     fontFamily: "Poppins",
                 },
@@ -40,7 +40,7 @@ var chart = new Chart(ctx, {
             }],
             xAxes: [{
                 ticks: {
-                    fontSize: 28,
+                    fontSize: 14,
                     fontColor: "rgb(255,255,255)",
                     fontFamily: "Poppins",
                     beginAtZero: true,
@@ -94,7 +94,7 @@ var chart = new Chart(ctx, {
           scales: {
               yAxes: [{
                   ticks: {
-                      fontSize: 20,
+                      fontSize: 14,
                       fontColor: "rgb(255,255,255)",
                       fontFamily: "Poppins",
                       beginAtZero: true,
@@ -106,7 +106,7 @@ var chart = new Chart(ctx, {
 
               xAxes: [{
                   ticks: {
-                      fontSize: 28,
+                      fontSize: 14,
                       fontColor: "rgb(255,255,255)",
                       fontFamily: "Poppins",
                       beginAtZero: true,
