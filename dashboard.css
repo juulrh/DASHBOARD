@@ -1,0 +1,249 @@
+/*CSS DASHBOARD*/
+
+/*lettertype*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/*algemeen css*/
+body {
+    background-color: #1C1D40;
+    background-image: url("images/starss.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    color: white;
+    font-family: Poppins-regular;
+}
+
+.titel {
+    width: 800px;
+    margin: 50px 40px -10px 90px;
+}
+
+/*MOBILE FIRST DESIGN*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+    'main1 main1'
+    'main2 main2'
+    'main3 main3'
+    'main4 main4'
+    'main5 main5'
+}
+
+.voorraad {
+    grid-area: main1;
+}
+
+.snelheid {
+    grid-area: main2;
+}
+
+.brandstof {
+    grid-area: main3;
+}
+
+.afstandtijd {
+    grid-area: main4;
+}
+
+.afbeelding {
+    grid-area: main5;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 27px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.voorraad {
+    background-color: #3C3D65;
+    margin: 70px;
+    border-radius: 15px;
+    width: 830px;
+}
+
+.snelheid  {
+    background-color: #3C3D65;
+    margin: 70px;
+    border-radius: 15px;
+    margin-top: -10px;
+    width: 830px;
+}
+
+.kmh {
+    font-size: 34px;
+    font-style: italic;
+    text-align: center;
+}
+
+.brandstof {
+    background-color: #3C3D65;
+    margin: 70px;
+    border-radius: 15px;
+    margin-top: -10px;
+    width: 830px;
+}
+
+#brandstofbalk {
+    background-color: black;
+    position: relative;
+    margin: 40px;
+    max-width: 100%;
+    border: 2px solid white;
+}
+
+#balk {
+    background-color: #BE00FF;
+    max-width: 100%;
+    height: 50px;
+}
+
+#gas {
+    font-size: 32px;
+    background-color: #1C1D40;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.afstandtijd {
+    background-color: #3C3D65;
+    margin: 70px;
+    border-radius: 15px;
+    margin-top: -10px;
+    width: 830px;
+}
+
+.afb {
+    width: 830px;
+    margin: 70px;
+    border-radius: 15px;
+    margin-top: -10px;
+}
+
+/*tablet formaat */
+@media (min-width: 768px) {
+  .grid-container {
+      display: grid;
+      grid-template-columns: 2fr;
+      grid-template-areas:
+      'main1 main1'
+      'main2 main4'
+      'main3 main4'
+      'main5 main5';
+  }
+h2 {
+  font-size: 35px;
+}
+
+p{
+  font-size: 30px;
+}
+.titel {
+  margin-left: 400px;
+  width: 130%;
+}
+.voorraad {
+  width: 92%;
+}
+
+.snelheid {
+  width: 750px;
+  height: 200px;
+}
+
+.brandstof {
+  width: 750px;
+}
+
+.afstandtijd {
+  width: 800px;
+  margin-left: -20px;
+}
+
+.afb {
+  width: 1600px;
+  height: 800px;
+}
+
+@media (min-width: 1280px) {
+  .grid-container {
+      display: grid;
+      grid-template-columns: 2fr;
+      grid-template-areas:
+      'main1 main2'
+      'main1 main3'
+      'main4 main5';
+  }
+.titel {
+  width: 150%;
+  margin-left: 1000px;
+}
+h2 {
+  font-size: 50px;
+}
+p{
+  font-size: 40px;
+}
+.kmh {
+  font-size: 60px;
+}
+  .voorraad{
+    width: 1900px;
+    margin-left:140px;
+  }
+#gas {
+  font-size: 50px;
+}
+  .snelheid{
+    width:1400px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 30px
+  }
+
+  .brandstof {
+    width:1400px;
+    height: 600px;
+    margin-left: 30px
+  }
+
+  .afstandtijd {
+    width: 1900px;
+    margin-left:140px;
+    margin-top: 20px;
+  }
+
+  .afb {
+    width: 1400px;
+    height: 1200px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  @media (min-width: 1920px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-areas:
+        'main1 main2'
+        'main1 main3'
+        'main4 main5';
+    }
+
+.titel {
+  width: 90%;
+  margin-left: 1100px;
+}
