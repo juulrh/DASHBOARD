@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>ITS DASHBOARD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="scriptdashb.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body>
+<img src="titel.png" class="titel">
+<div class="grid-container">
+    <div class="voorraad">
+        <h2> Voorraad eten en drinken </h2>
+        <div class="charts chart1">
+            <canvas id="myChart" class="chart1"></canvas>
+        </div>
+    </div>
+
+    <div class="snelheid">
+        <h2> Snelheid </h2>
+        <div class="kmh"> 25000 kilometer per uur </div>
+    </div>
+
+    <div class="brandstof">
+        <h2> Brandstof verbruikt </h2>
+        <p> Er is <span id="verbruikt"> </span> liter van de 1.000.000 liter brandstof vebruikt </p>
+        <div id="brandstofbalk">
+            <div id="balk"></div>
+        </div>
+        <div>
+            <input type="button" name="gas" id="gas" value="200 liter vebruikt">
+        </div>
+    </div>
+
+    <div class="afstandtijd">
+        <h2> Afstand gelegd over tijd </h2>
+        <div class="charts chart2">
+            <canvas id="lineChart" class="chart2"></canvas>
+        </div>
+    </div>
+
+    <div class="afbeelding">
+<!--        <img src="images/nasa.jpg" class="afb">-->
+    </div>
+</div>
+</body>
+</html>
