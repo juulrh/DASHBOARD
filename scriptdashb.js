@@ -10,7 +10,7 @@ var chart = new Chart(ctx, {
     data: {
         labels: ['Snacks', 'Beleg', 'Brood', 'Fruit'],
         datasets: [{
-            label: 'Voorraad eten',
+            label: 'In kilogram',
             backgroundColor: [  //kleuren van de balken
               'rgb(255, 255, 255)', //wit
                 'rgb(170, 0, 255)',
@@ -24,9 +24,6 @@ var chart = new Chart(ctx, {
     },
       // optie informatie, over lettertype en gridlijnen
     options: {
-      legend: {
-          display: false,
-        },
         scales: {
             yAxes: [{
                 ticks: {
@@ -80,6 +77,7 @@ var chart = new Chart(ctx, {
       data: {
           labels: ['1000', '2000', '3000', '4000', '5000'], //data x-as
           datasets: [{
+              label: 'In kilometers x 10^2',
               backgroundColor: 'rgb(170, 0, 255)',
               borderColor: 'rgb(255, 255, 255)',
               data: [2000, 4000, 6000, 8000, 10000] //data y-as
@@ -89,7 +87,7 @@ var chart = new Chart(ctx, {
       // optie informatie, over lettertype en gridlijnen
       options: {
         legend: {
-            display: false,
+
           },
           scales: {
               yAxes: [{

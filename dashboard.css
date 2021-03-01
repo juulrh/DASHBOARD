@@ -63,7 +63,9 @@ p {
     font-size: 14px;
 }
 
-
+.charts {
+  width: 100%;
+}
 .voorraad {
     background-color: #3C3D65;
     margin: 15px;
@@ -269,11 +271,27 @@ p{
         grid-template-columns: 2fr;
         grid-template-areas:
         'main1 main2'
-        'main1 main3'
-        'main4 main5';
+        'main1 main5'
+        'main3 main4';
     }
 
 .titel {
-  width: 90%;
-  margin-left: 1100px;
+  width: 70%;
+  margin-left: 350px;
+}
+
+
+.voorraad {
+  width: 130%;
+  margin-right: -80px;
+}
+.charts {
+  width: 110%;
+}
+.snelheid {
+  width: 40%;
+}
+
+.afb {
+  width: 40%;
 }
