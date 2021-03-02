@@ -18,7 +18,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 70%;
 }
 
 /*MOBILE FIRST DESIGN*/
@@ -64,6 +66,7 @@ h2 {
     text-align: center;
     font-size: 14px;
     font-weight: lighter;
+    margin-bottom: 10px;
 }
 
 p {
@@ -151,11 +154,11 @@ p {
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .chart2 {
@@ -164,7 +167,7 @@ p {
 
 
     .kmh {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: bold;
     }
 
@@ -185,28 +188,26 @@ p {
 
 
     h2 {
-        font-size: 30px;
-    }
-
-    p {
         font-size: 20px;
     }
 
+    p {
+        font-size: 16px;
+    }
+
     .kmh {
-        font-size: 60px;
+        font-size: 18px;
     }
     .charts {
         width: 800px;
     }
 
-    .kmh {
-        font-size: 25px;
-    }
-
     #gas {
-        font-size: 20px;
+        font-size: 16px;
     }
-
+    .afbeelding {
+      height: 350px;
+    }
 
 @media (min-width: 1920px) {
     .grid-container {
@@ -216,4 +217,23 @@ p {
             'main1 main2'
             'main1 main5'
             'main3 main4';
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    p{
+      font-size: 22px;
+    }
+
+    .kmh {
+      font-size: 25px;
+    }
+
+    #balk {
+     height: 50px;
+    }
+    #gas {
+      font-size: 22px;
     }

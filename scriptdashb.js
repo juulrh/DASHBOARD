@@ -1,6 +1,7 @@
 //JAVASCRIPT DASHBOARD DATAVISUALISATIES
 
 // type data visualisatie 1 horizontale staafdiagram
+Chart.defaults.global.defaultFontColor = 'white';
 
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
@@ -77,12 +78,12 @@ var chart = new Chart(ctx, {
 
     // data voor de lijn
     data: {
-        labels: ['1000', '2000', '3000', '4000', '5000'], //data x-as
+        labels: ['10', '20', '30', '40', '50'], //data x-as
         datasets: [{
-            label: 'In kilometers x 10^2',
+            label: 'In kilometers x 10^3',
             backgroundColor: 'rgb(170, 0, 255)',
             borderColor: 'rgb(255, 255, 255)',
-            data: [2000, 4000, 6000, 8000, 10000] //data y-as
+            data: [20, 40, 60, 80, 100] //data y-as
         }]
     },
 
@@ -90,7 +91,7 @@ var chart = new Chart(ctx, {
     options: {
         responsive: true,
         maintainAspectRatio: false,
-        legend: {},
+
         scales: {
             yAxes: [{
                 ticks: {
