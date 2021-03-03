@@ -19,7 +19,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     max-width: 70%;
 }
 
@@ -131,6 +131,10 @@ p {
     background-color: #3C3D65;
     border-radius: 15px;
 }
+.km {
+  margin-top: -10px;
+  font-size: 12px;
+}
 
 .afbeelding {
     background-image: url("images/nasa.jpg");
@@ -138,8 +142,16 @@ p {
     background-size: cover;
     border-radius: 15px;
     height: 200px;
+    border: solid rgb(255, 105, 180) 0.2px;
+    margin-bottom: 10px;
 }
 
+.time {
+  font-size: 10px;
+  font-style: italic;
+  margin-top: -10px;
+  color: white;
+}
 
 /*tablet formaat */
 @media (min-width: 768px) {
@@ -167,7 +179,7 @@ p {
 
 
     .kmh {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
     }
 
@@ -188,15 +200,15 @@ p {
 
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .kmh {
-        font-size: 18px;
+        font-size: 16px;
     }
     .charts {
         width: 800px;
@@ -236,4 +248,8 @@ p {
     }
     #gas {
       font-size: 22px;
+    }
+
+    .km {
+      font-size: 18px;
     }

@@ -12,6 +12,7 @@ var chart = new Chart(ctx, {
         labels: ['Snacks', 'Beleg', 'Brood', 'Fruit'],
         datasets: [{
             label: 'In kilogram',
+
             backgroundColor: [  //kleuren van de balken
                 'rgb(255, 255, 255)', //wit
                 'rgb(170, 0, 255)',
@@ -19,7 +20,7 @@ var chart = new Chart(ctx, {
                 'rgb(178, 223, 238)'
             ],
             borderColor: 'rgb(255, 255, 255)',
-            data: [20, 40, 60, 80],
+            data: [10, 20, 30, 40],
             borderWidth: 1,
         }]
     },
@@ -27,6 +28,7 @@ var chart = new Chart(ctx, {
     options: {
         responsive: true,
         maintainAspectRatio: false,
+
         scales: {
             yAxes: [{
                 ticks: {
@@ -57,14 +59,14 @@ var chart = new Chart(ctx, {
 // type data visualisatie 2 balk
 var s = 10;
 
-document.getElementById('verbruikt').innerHTML = s + '00';
+document.getElementById('verbruikt').innerHTML = s + '0';
 document.getElementById('balk').style.width = s + '%';
 
 document.getElementById('gas').onclick = function () { //over de button
-    s += 20;
+    s += 10;
 
-    if (s > 1000) {
-        s = 1000;
+    if (s > 100) {
+        s = 100;
     }
     document.getElementById('verbruikt').innerHTML = s + '0';
     document.getElementById('balk').style.width = s + '%'
@@ -78,12 +80,12 @@ var chart = new Chart(ctx, {
 
     // data voor de lijn
     data: {
-        labels: ['10', '20', '30', '40', '50'], //data x-as
+        labels: ['0', '10', '20', '30', '40'], //data x-as
         datasets: [{
-            label: 'In kilometers x 10^3',
-            backgroundColor: 'rgb(170, 0, 255)',
+            label: 'In kilometers x 10^4',
+            backgroundColor: 'rgb(170, 0, 255, 0.5)',
             borderColor: 'rgb(255, 255, 255)',
-            data: [20, 40, 60, 80, 100] //data y-as
+            data: [0, 50, 70, 80, 100]
         }]
     },
 
