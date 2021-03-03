@@ -6,10 +6,7 @@
 
 /*algemeen css*/
 body {
-    background-color: #1C1D40;
-    background-image: url("images/starss.jpg");
-    background-repeat: no-repeat;
-    background-blend-mode: lighten;
+    background-color: #141531;
     color: white;
     font-family: Poppins;
 }
@@ -37,6 +34,7 @@ body {
     'main5 main5';
     grid-gap: 20px;
 }
+
 .grid-container > div {
     padding: 20px;
 }
@@ -80,13 +78,13 @@ p {
 }
 
 .voorraad {
-    background-color: #3C3D65;
+    background-color: #2C2D50;
     border-radius: 15px;
     padding: 5px;
 }
 
 .snelheid {
-    background-color: #3C3D65;
+    background-color: #2C2D50;
     border-radius: 15px;
 }
 
@@ -98,7 +96,7 @@ p {
 }
 
 .brandstof {
-    background-color: #3C3D65;
+    background-color: #2C2D50;
     border-radius: 15px;
 }
 
@@ -107,7 +105,7 @@ p {
     position: relative;
     margin: 20px;
     max-width: 100%;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 #balk {
@@ -124,20 +122,21 @@ p {
     margin-bottom: 30px;
     padding: 10px;
     border-radius: 10px;
-    border: 2px solid rgb(255, 105, 180);
+    border: 1px solid rgb(255, 105, 180);
 }
 
 .afstandtijd {
-    background-color: #3C3D65;
+    background-color: #2C2D50;
     border-radius: 15px;
 }
+
 .km {
   margin-top: -10px;
   font-size: 12px;
 }
 
 .afbeelding {
-    background-image: url("images/nasa.jpg");
+    background-image: url("images/camera.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
@@ -198,7 +197,6 @@ p {
           'main4 main5';
     }
 
-
     h2 {
         font-size: 18px;
     }
@@ -210,6 +208,7 @@ p {
     .kmh {
         font-size: 16px;
     }
+
     .charts {
         width: 800px;
     }
@@ -217,6 +216,7 @@ p {
     #gas {
         font-size: 16px;
     }
+
     .afbeelding {
       height: 350px;
     }
@@ -235,7 +235,7 @@ p {
       font-size: 25px;
     }
 
-    p{
+    p {
       font-size: 22px;
     }
 
@@ -246,6 +246,7 @@ p {
     #balk {
      height: 50px;
     }
+
     #gas {
       font-size: 22px;
     }

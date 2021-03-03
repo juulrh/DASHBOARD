@@ -1,12 +1,11 @@
 //JAVASCRIPT DASHBOARD DATAVISUALISATIES
 
-// type data visualisatie 1 horizontale staafdiagram
-Chart.defaults.global.defaultFontColor = 'white';
+// type data visualisatie 1, voorraad staafdiagram
+Chart.defaults.global.defaultFontColor = 'white';  //legend kleur
 
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
     type: 'horizontalBar',
-
     // data over voorraad eten voor staafdiagram
     data: {
         labels: ['Snacks', 'Beleg', 'Brood', 'Fruit'],
@@ -56,7 +55,7 @@ var chart = new Chart(ctx, {
 });
 
 
-// type data visualisatie 2 balk
+// type data visualisatie 2 brandstof balk
 var s = 10;
 
 document.getElementById('verbruikt').innerHTML = s + '0';
@@ -73,7 +72,7 @@ document.getElementById('gas').onclick = function () { //over de button
 };
 
 
-// type data visualisatie 3 lijn
+// type data visualisatie 3 kmh lijn 
 var ctx = document.getElementById('lineChart').getContext('2d');
 var chart = new Chart(ctx, {
     type: 'line',
