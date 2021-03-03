@@ -1,4 +1,3 @@
-# DASHBOARD ITS
- Challenge 1
- Juul Hoogland
- Haagse Hogeschool
+# DASHBOARD ITS Juul Hoogland
+ CHALLENGE 1
+ Haagse Hogeschool, 3 maart 2021
